@@ -139,3 +139,24 @@ ul.main-menu li a.active {
 .show {
   display: block;
 }
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 25px; 
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 4.5rem;  
+  color: #ef6d3d; 
+  margin-bottom: 20px;
+}
+
+ul.main-menu {
+  justify-content: center; 
+}
+
