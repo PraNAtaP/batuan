@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(135deg, #ffffff, #58f2fa);
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ h2 span:nth-child(even) {
   display: inline-block;
   text-decoration: none;
   background: #ffffff;
-  color: #ff6f61;
+  color: #00bbff;
   font-size: 2rem;
   font-weight: bold;
   padding: 15px 30px;
@@ -63,7 +63,7 @@ h2 span:nth-child(even) {
 }
 
 .button:hover {
-  background: #ff6f61;
+  background: #00bbff;
   color: #ffffff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
