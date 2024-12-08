@@ -4,7 +4,7 @@ html {
 body {
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  font-family: "MADESunflower", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   color: #ffffff;
 }
@@ -33,6 +33,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
+  text-align: center;
 }
 h1 {
   font-size: 3.6rem;
@@ -67,6 +68,7 @@ h6 {
 
 p {
   margin: 0 auto 1.5em auto;
+  font-size:medium;
 }
 p + p {
 }
@@ -146,17 +148,45 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 25px; 
+  padding: 50px 25px;
 }
 
 header h1 {
-  font-family: 'Poppins', sans-serif; 
-  font-size: 4.5rem;  
-  color: #ffa5ce; 
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5rem;
+  color: #ffa5ce;
   margin-bottom: 20px;
 }
 
 ul.main-menu {
-  justify-content: center; 
+  justify-content: center;
 }
 
+img {
+  max-width: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+img {
+  margin: 10px auto;
+  display: block;
+}
+
+header h1 {
+  font-family: 'Sunflower';
+  font-size: 5rem; /* Penyesuaian ukuran */
+}
+
+ul.main-menu li a {
+  font-family: 'Honeybutter', cursive;
+  font-size: 2.5rem; /* Penyesuaian ukuran */
+}
+
+footer {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Honeybutter', cursive;
+}

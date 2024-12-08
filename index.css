@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, #4e4e4e, #58f2fa);
+  font-family:'Honeybutter', cursive;;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('assets/image/background.jpg') center center no-repeat fixed;
+  background-size: cover;
+  filter: brightness(50%); /* Filter hanya berlaku untuk background */
+  z-index: -1; /* Taruh di belakang konten */
 }
 
 .container {
@@ -117,4 +128,18 @@ h2 span:nth-child(even) {
 .container {
   max-width: 90%;
   margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%; /* Pastikan elemen header mengambil seluruh lebar halaman */
+}
+
+header img {
+  width: 80px; /* Sesuaikan ukuran logo jika diperlukan */
+  height: auto;
 }
