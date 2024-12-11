@@ -1,10 +1,20 @@
+@font-face {
+  font-family: sunflower;
+  src: url(assets/font/sunflower.otf);
+}
+
+@font-face {
+  font-family: candybeans;
+  src: url(assets/font/candybeans.otf);
+}
+
 html {
   font-size: 62.5%;
 }
 body {
   line-height: 1.6;
   font-weight: 400;
-  font-family: "MADESunflower", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'sunflower', Helvetica, sans-serif
     sans-serif;
   color: #ffffff;
 }
@@ -152,7 +162,7 @@ header {
 }
 
 header h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'sunflower',"Poppins", sans-serif;
   font-size: 4.5rem;
   color: #ffa5ce;
   margin-bottom: 20px;
@@ -174,12 +184,12 @@ img {
 }
 
 header h1 {
-  font-family: 'Sunflower';
+  font-family: 'sunflower';
   font-size: 5rem; /* Penyesuaian ukuran */
 }
 
 ul.main-menu li a {
-  font-family: 'Honeybutter', cursive;
+  font-family: 'candybeans', cursive;
   font-size: 2.5rem; /* Penyesuaian ukuran */
 }
 
@@ -188,5 +198,5 @@ footer {
 }
 
 h2 {
-  font-family: 'Honeybutter', cursive;
+  font-family: 'candybeans', cursive;
 }
