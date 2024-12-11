@@ -1,11 +1,21 @@
+@font-face {
+  font-family: sunflower;
+  src: url(assets/font/sunflower.otf);
+}
+
+@font-face {
+  font-family: candybeans;
+  src: url(assets/font/candybeans.otf);
+}
+
 body {
   margin: 0;
-  font-family:'Honeybutter', cursive;;
+  font-family: 'candybeans', 'Times New Roman', cursive;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -17,14 +27,18 @@ body {
   height: 100%;
   background: url('assets/image/background.jpg') center center no-repeat fixed;
   background-size: cover;
-  filter: brightness(50%); /* Filter hanya berlaku untuk background */
-  z-index: -1; /* Taruh di belakang konten */
+  filter: brightness(50%);
+  z-index: -1;
 }
 
 .container {
   text-align: center;
   padding: 20px;
-  font-weight: bold;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'sunflower', cursive;
 }
 
 h2 span {
@@ -32,7 +46,7 @@ h2 span {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #e5e5e5;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   animation: bounce 1.5s infinite ease-in-out;
 }
@@ -64,7 +78,7 @@ h2 span:nth-child(even) {
 .button {
   display: inline-block;
   text-decoration: none;
-  background: #ffffff;
+  background: #a9a9a9;
   color: #00bbff;
   font-size: 2rem;
   font-weight: bold;
@@ -136,10 +150,14 @@ header {
   align-items: center;
   position: absolute;
   top: 0;
-  width: 100%; /* Pastikan elemen header mengambil seluruh lebar halaman */
+  width: 100%;
 }
 
 header img {
-  width: 80px; /* Sesuaikan ukuran logo jika diperlukan */
+  width: 80px;
   height: auto;
+}
+
+footer {
+  font-family: 'sunflower', Times, serif;
 }
