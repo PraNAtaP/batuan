@@ -113,7 +113,7 @@ html,
   background-color: transparent;
 }
 html {
-  background: url(assets/image/background.jpg) center center no-repeat fixed;
+  background: url(../assets/image/background.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 body {
