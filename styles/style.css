@@ -1,11 +1,11 @@
 @font-face {
   font-family: sunflower;
-  src: url(assets/font/sunflower.otf);
+  src: url(../assets/font/sunflower.otf);
 }
 
 @font-face {
   font-family: candybeans;
-  src: url(assets/font/candybeans.otf);
+  src: url(../assets/font/candybeans.otf);
 }
 
 html {
