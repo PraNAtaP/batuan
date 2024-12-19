@@ -20,7 +20,7 @@ html {
 body {
   line-height: 1.6;
   font-weight: 400;
-  color: #ffffff;
+  color: #000000;
 }
 
 a {
@@ -67,6 +67,7 @@ h3 {
   font-size: 2.4rem;
   line-height: 1.35;
   letter-spacing: -0.08rem;
+  font-weight: bolder;
 }
 
 h4 {
@@ -90,6 +91,7 @@ h6 {
 p {
   margin: 0 auto 1.5em auto;
   font-size: medium;
+  text-align: justify;
 }
 
 q {
@@ -128,9 +130,9 @@ body {
 header,
 #content,
 footer {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 224, 139, 0.695);
   padding: 25px;
-  color: #ffffff;
+  color: #000000;
 }
 
 ul.main-menu {
@@ -145,13 +147,13 @@ ul.main-menu li a {
   margin-right: 20px;
   font-size: 2rem;
   border-bottom: solid transparent 3px;
-  color: #cfd2da;
+  color: #613613;
 }
 ul.main-menu li a:hover {
-  color: #ffffff;
+  color: #613613;
 }
 ul.main-menu li a.active {
-  color: #ffffff;
+  color: #613613;
   border-bottom-color: #ef6d3d;
 }
 
@@ -174,7 +176,7 @@ header {
 header h1 {
   font-family: 'klavier', "Poppins", sans-serif; 
   font-size: 10rem; 
-  color: #ffa5ce; 
+  color: #613613; 
   margin-bottom: 20px;
 }
 
