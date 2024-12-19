@@ -103,7 +103,7 @@ h2 span:nth-child(even) {
 .button {
   display: inline-block;
   text-decoration: none;
-  background: #a9a9a9;
+  background: #fff0dc;
   color: #00bbff;
   font-size: 2rem;
   font-weight: bold;
