@@ -130,7 +130,7 @@ body {
 header,
 #content,
 footer {
-  background: rgba(255, 224, 139, 0.695);
+  background: #fff0dcb7;
   padding: 25px;
   color: #000000;
 }
