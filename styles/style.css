@@ -150,11 +150,11 @@ ul.main-menu li a {
   color: #613613;
 }
 ul.main-menu li a:hover {
-  color: #613613;
+  color: #000000;
 }
 ul.main-menu li a.active {
   color: #613613;
-  border-bottom-color: #ef6d3d;
+  border-bottom-color: #000000;
 }
 
 .hide {
@@ -186,7 +186,7 @@ ul.main-menu {
 
 img {
   max-width: 100%;
-  height: 500px;
+  height: 410px;
   width: auto;
 }
 
@@ -200,7 +200,7 @@ ul.main-menu li a {
   font-size: 2.5rem;
 }
 
-footer {
+footer p{
   text-align: center;
 }
 
